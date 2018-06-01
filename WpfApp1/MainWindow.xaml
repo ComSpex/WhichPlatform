@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+				WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="640" Width="1024">
     <Grid>
-        
+		<Viewbox>
+			<TextBlock Name="Platform" FontWeight="Bold" FontFamily="Book Antiqua"></TextBlock></Viewbox>
     </Grid>
 </Window>
